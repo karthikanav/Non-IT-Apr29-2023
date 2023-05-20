@@ -1,0 +1,66 @@
+Saturday Agenda
+----------------
+9.00  to 10.15 -Introduction to Java, Class and Main method
+10.35 to 11:00 -Classroom+Break
+11:00 to 11.45 -Datatypes and Variables
+12:05 to 12:25 -Classroom
+12:25 to 01:00 -Method and Object
+01:00 to 1.15  -Classroom
+1.15  to 1.30 -Recap
+
+
+
+Project name-upper case
+package name-lower Class
+
+class name - upper class
+-pascal case -TestLeaf
+MyProgram
+class- blueprint /template 
+method /variable
+
+
+
+Datatypes
+
+i need stored my age-
+name-
+
+wapperclass-collection of data based onthe datatype and size .we able use that one.
+Integer
+
+
+Most commonly used in selenium:
+Int
+boolean
+char
+
+
+method syntax:
+
+
+main method
+public static void main(String[] args)
+
+//accessspecifier returntype methodname(Input args)
+input agrs- can 0,1,2.......n
+normal method
+public void data(){
+
+}
+
+object syntax
+
+classname objname=new classname();
+
+
+- Create package name as week1.day1
+- Create a  new class as "Iphone" under week1.day1
+- Create 2 methods (makeCall() , model()) with simple print statement
+- Create main method in another Class as "SmartPhone"
+- Create object for Iphone class and call the methods using the object
+- Execute the class and get the result in console
+
+pubic void makeCall(){
+    syso
+}
