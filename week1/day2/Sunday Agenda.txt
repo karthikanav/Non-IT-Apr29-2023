@@ -1,0 +1,61 @@
+Sunday Agenda
+----------------
+8.50 to 9.15- recap
+9.15  to 9.45 -Return type
+9.45 to 10.05 -Operators
+10.30 to 10.40 -Break
+10.40 to 11:25 -if-condition
+11:25 to 11.45 -BreakOut+ Break
+11.45 to 12.15  -for loop
+12.15 to 12.30 -BreakOut
+12.30 to 01.00 - Arrays
+01:00 to 01.20-BreakOut
+01.10 to 01.20- Recap
+
+
+void-nothing
+
+return type
+primitive datatype
+NOn primitive datatype-String
+p&n-P
+
+
+Operators
+=======
+
+Arithmetic:
++,-,*,/,%
+
+Reltional :
+<,>,<=,>=,==,!=
+
+Logical :
+And (&&) ,Or (||)
+
+Assignment:
+=
+
+a=20;
+20==20
+
+classroom:
+
+int num=234;
+
+if(num<0)
+syso(negative)
+
+else if(num>0)
+syso(positive)
+
+else if(num==0)
+syso(neutral)
+
+else
+syso(number not define)
+
+
+
+Non IT April29 2023 - week 4 feedback form
+https://forms.office.com/r/U5dDPBK1U9
