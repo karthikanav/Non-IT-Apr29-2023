@@ -1,0 +1,88 @@
+Todays Agenda:
+
+    08:45-09:00-Recap
+    09:00-09:40-Selenium Introdution
+    09:40:10:10-Launch Browser
+    10:15-10:40-Classroom+Break
+    10:40-12:05-Locators
+    12:05-12:30-Classroom
+    12:30-01:00- Select Class(Dropdown)
+    01:00-01:20-Classroom
+    01:20-1:30-Recap
+    
+
+Why we go for automation?
+
+
+what is selenium?
+
+UI-User Interface
+
+selenium -can automate Only Web Application
+
+
+
+
+
+open DOM-
+1.Rightclick on webpage-click on inspect 
+2.press f12 or fn f12
+3.ctrl+shift+i
+
+<Html>- tag name -purple color
+attribute name-brown color
+attribute value-blue color
+text-black color
+
+
+
+===========================================================
+every time when we run your selenium code,it will lanuch new browser.
+selenium cannot talk to the existing browser.
+
+
+
+=====================================================================
+Basic Loctors:
+
+we have 8 Loctors:
+
+ID----1st 
+NAME-- 2nd
+CLASS NAME--3rd
+LINK TEXT- 4th--------when wehave <a> and hyperlink
+PARTIAL LINK TEXT--5th--- 
+TAG NAME--6th-----
+XPATH--7th
+CSS SELECTOR --8th
+
+Rules for basic locators 
+
+ * *Id locator - if contain with number in value means we should not use it.
+Eg: id="username12" --change browser to  browser
+
+* *Class locator - if contain with white space in the value we should not use it 
+Eg: class="CheckBox  gent input"
+
+* *Name locator - if we have  duplicates  name means we should not use name locator .
+
+
+🚨🚨 important thing you should not do inspect form Automation page.
+
+
+
+
+
+========================================================
+tagname----mandatory---[purble color]
+Attribute-- [orange color] 
+Attribute value---[blue color]
+text --- [black color]
+
+
+
+Select class-
+methods
+1.SelectByIndex
+2.SelectByVisibleText
+3.SelectByValue
