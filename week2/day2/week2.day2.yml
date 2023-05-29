@@ -1,0 +1,107 @@
+Todays Agenda:
+
+    8:45-9:00-Recap
+    9:00-10:20-Basic Xpath
+    10:35-11:05-Classroom+Break
+    11:00-11:40-Implicitly Wait + webDriver methods
+    11:40-12:20-Advanced Xpath
+    12:20-12:30-Break
+    12:30-01:00-Continue Xpath
+    01:00-01:15-Classroom
+    01:15-01:20-Recap
+
+
+    Xpath- 2 types
+    1.Absolute-xpath
+   -- it from html tag
+   /html/body/div[2]/div[2]/div/form/p/input
+   we not using this xpath
+
+   2.Relative xpath
+   -Basic xpath
+   -Advance Xpath or Axes xpath
+
+syntax= //tagname[@attribute ='attribute value']
+
+
+   Basic xpath- 5xpath
+================================
+1.Attribute xpath 
+
+syntax-
+//tagname[@attribute='attribute value']
+
+ex-//input[@id='password']
+
+2.TextBased xpath
+
+syntax-
+//tagname[text()='value']
+//a[text()='Leads']
+
+partial xpath
+3.Partial attribute xpath
+syntax-
+//tagname[contains(@attrb,'value')]
+
+ex-//input[contains(@id,'companyName')]
+
+4.Partial Text xpath
+//tagname[contains(text(),'value')]
+
+//a[contains(text(),'CRM/SFA')]
+
+5.collection based xpath
+
+syntax-
+(//tagname[@attr='value'])[index]
+index value should not go above 5
+
+
+
+wait
+======
+Thread.sleep-java wait -how many seconds you given itwill wait Mandatory
+Thread.sleep(10000)
+
+selenium 2types wait
+1.Implicity wait
+2.Explicit wait
+
+Implicity wait-
+set some seconds -15sec
+G-10-
+A-15
+K-5
+
+methods
+==============
+title-getTitle()
+text-getText()
+current url-getCurrentUrl
+
+
+
+Axes path-
+1.Parent to child
+
+basicxapth/tagname of Child
+
+//p[@class='top']/input
+//div[contains(@class,'x-grid3-cell-inner')]/a
+
+2.GrandParent to Grand Child
+
+basic xpath//tagnamefor grandchild
+
+//li[@class='navlink']//span
+
+3.Child to parent
+
+basic xpath/parent::Parent tagname
+//input[@id='twotabsearchtextbox']/parent::div
+
+4.GrandChild to GrandParent
+
+basic xpath/ancestor::tagname GP
+//input[@id='twotabsearchtextbox']/ancestor::div[@class='nav-fill']
