@@ -1,0 +1,122 @@
+Todays Agenda:
+
+    08:45-09:00-Recap
+    09:00-09:50-Polymorphism
+    09:55:10:20-Classroom+Break
+    10:25-11:40-Abstraction
+    11:40-12:05-Classroom+Break
+    12:05-12:50-Collection-List
+    12:50-01:10-Classrooms
+    01:10-01:20-Recap
+
+    Polymorphism
+    ================
+
+    Polymorphism we can perform a single action in different ways.
+
+    Poly--many
+    morphs-forms
+
+    two types
+    ========
+    1.Method overloading/static/compile time/early binding
+    2.Method overriding/dymanic/run time/late binding
+
+
+    overloading
+    ===========
+    same class we can more method name same with different input agrs
+public class cal{
+    public void add(){
+
+    }
+
+    public void add(int a){
+
+    }
+
+    public void add(String name ,int b){
+
+    }
+    public void add(int b){
+
+    }
+
+   public void add(int b,String name){
+
+   }
+
+
+
+   Method overriding
+   ==================
+will have same method but different class
+inheritance
+
+class p
+phone(){
+    smartphone
+}
+
+class c extends p
+
+phone(){
+    iphone
+}
+main(){
+    c a= new c();
+    a.phone();
+}
+
+
+
+Abstraction
+=============
+
+Interface-only method
+Abstract class- partial method
+Normal class or concrete class-excute all method
+
+
+Interface
+============
+100% Abstract method 
+unimplementation
+
+keywords
+=========
+class and  interface - implements
+we need implementation all methods in concrete class
+
+
+Abstract Class
+==============
+0 to 100% Abstract method
+we can have both implement and unimplement methods 
+
+keywords
+class and abstract class---extends
+
+
+
+====================================================================================
+
+
+Collection:(dymanic array)
+Group
+
+Collection-interface
+
+two types
+=========
+
+1.List-(sub interface)
+2.Set-(sub interface)
+
+List-
+
+List<int> mentors=new ArrayList<int>();
+data type- wrapper class(generic type)
+int-            Integer
+char-             Character
+float-                  Float

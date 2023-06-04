@@ -1,0 +1,50 @@
+Todays Agenda:
+
+    08:45-09:00-Recap
+    09:00-10:00-Arrays
+    10:10:10:35-Classroom+Break
+    10:35-11:10-String
+    11:10-11:35-Classroom+Break
+    11:35-12:00-Continue with String
+    12:00-12:05-Break
+    12:05-12:55-OOPs-Inheritance
+    12:55-01:15-Classrooms
+    01:15-01:20-Recap
+
+
+    Array
+    ========
+    Non Primitive
+    collection same data type
+    declare i need use--[]
+    array index start from'0'
+    *** array is fixed data or fixed length
+    int a=5;
+    String name="testleaf";
+    float fd=6.5f;
+    
+syntax
+datatype[] variablename={};
+
+
+String
+======
+collection of character or sequence of character
+
+
+OOPs
+Object Oriented programming language
+*Object
+
+data- variablename
+function-method 
+
+4-pillars
+1.Inheritance
+2.Polymorphism
+3.Abstraction
+4.Encapslation
+s
+Keyword-extends
+
+gp-p-c-----
